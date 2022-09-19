@@ -1,0 +1,54 @@
+==> default: Running provisioner: shell...
+    default: Running: C:/Users/yanli/AppData/Local/Temp/vagrant-shell20220918-8872-1qxzezq.sh
+    default: Start!
+    default: Get:1 http://repo.mysql.com/apt/ubuntu bionic InRelease [20.0 kB]
+    default: Err:1 http://repo.mysql.com/apt/ubuntu bionic InRelease
+    default:   The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 467B942D3A79BD29
+    default: Hit:2 http://security.ubuntu.com/ubuntu bionic-security InRelease
+    default: Hit:3 http://archive.ubuntu.com/ubuntu bionic InRelease
+    default: Hit:4 http://archive.ubuntu.com/ubuntu bionic-updates InRelease
+    default: Hit:5 http://archive.ubuntu.com/ubuntu bionic-backports InRelease
+    default: Reading package lists...
+    default: W: GPG error: http://repo.mysql.com/apt/ubuntu bionic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 467B942D3A79BD29
+    default: E: The repository 'http://repo.mysql.com/apt/ubuntu bionic InRelease' is not signed.
+    default: Reading package lists...
+    default: Building dependency tree...
+    default: Reading state information...
+    default: tree is already the newest version (1.7.0-5).
+    default: 0 upgraded, 0 newly installed, 0 to remove and 251 not upgraded.
+    default: (Reading database ... 46015 files and directories currently installed.)
+    default: Preparing to unpack mysql-apt-config_0.8.15-1_all.deb ...
+    default: Unpacking mysql-apt-config (0.8.15-1) over (0.8.15-1) ...
+    default: Setting up mysql-apt-config (0.8.15-1) ...
+    default: Warning: apt-key should not be used in scripts (called from postinst maintainerscript of the package mysql-apt-config)
+    default: OK
+    default: Reading package lists...
+    default: Building dependency tree...
+    default: Reading state information...
+    default: mysql-server is already the newest version (5.7.39-0ubuntu0.18.04.2).
+    default: 0 upgraded, 0 newly installed, 0 to remove and 251 not upgraded.
+    default: Reading package lists...
+    default: Building dependency tree...
+    default: Reading state information...
+    default: libmysqlclient-dev is already the newest version (5.7.39-0ubuntu0.18.04.2).
+    default: 0 upgraded, 0 newly installed, 0 to remove and 251 not upgraded.
+    default: pip3 已安装
+    default: Requirement already satisfied: setuptools in /usr/local/lib/python3.6/dist-packages (59.6.0)
+    default: WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+    default: Collecting wrapt
+    default:   Using cached wrapt-1.14.1-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (74 kB)
+    default: Installing collected packages: wrapt
+    default: Successfully installed wrapt-1.14.1
+    default: WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+    default: Requirement already satisfied: pip in /usr/local/lib/python3.6/dist-packages (21.3.1)
+    default: WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+    default: Requirement already satisfied: Django==3.1.3 in /usr/local/lib/python3.6/dist-packages (from -r requirements.txt (line 1)) (3.1.3)
+    default: Requirement already satisfied: mysqlclient==2.0.3 in /usr/local/lib/python3.6/dist-packages (from -r requirements.txt (line 2)) (2.0.3)
+    default: Requirement already satisfied: pytz in /usr/local/lib/python3.6/dist-packages (from Django==3.1.3->-r requirements.txt (line 1)) (2022.2.1)
+    default: Requirement already satisfied: asgiref<4,>=3.2.10 in /usr/local/lib/python3.6/dist-packages (from Django==3.1.3->-r requirements.txt (line 1)) (3.4.1)
+    default: Requirement already satisfied: sqlparse>=0.2.2 in /usr/local/lib/python3.6/dist-packages (from Django==3.1.3->-r requirements.txt (line 1)) (0.4.2)
+    default: Requirement already satisfied: typing-extensions in /usr/local/lib/python3.6/dist-packages (from asgiref<4,>=3.2.10->Django==3.1.3->-r requirements.txt (line 1)) (4.1.1)
+    default: WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+    default: ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+    default: SUperuser creation skipped.
+    default: All Done!
